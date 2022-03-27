@@ -11,6 +11,7 @@
   inputs.src-jswebsockets-master.ref   = "refs/heads/master";
   inputs.src-jswebsockets-master.owner = "stisa";
   inputs.src-jswebsockets-master.repo  = "jswebsockets";
+  inputs.src-jswebsockets-master.dir   = "";
   inputs.src-jswebsockets-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
