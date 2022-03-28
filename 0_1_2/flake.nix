@@ -11,7 +11,6 @@
   inputs.src-jswebsockets-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-jswebsockets-0_1_2.owner = "stisa";
   inputs.src-jswebsockets-0_1_2.repo  = "jswebsockets";
-  inputs.src-jswebsockets-0_1_2.dir   = "";
   inputs.src-jswebsockets-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
